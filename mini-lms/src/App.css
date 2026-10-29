@@ -1,0 +1,53 @@
+.contenedor {
+  max-width: 720px;
+  margin: 2rem auto;
+  font-family: system-ui, Segoe UI, sans-serif;
+  color: #212529;
+}
+.Titulo{
+  color: #198754;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+}
+.Principal{
+  color: #dee2e6;
+  text-align: center;
+  background-color: #6c757d;
+}
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: blue;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla th,
+.tabla td {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tabla tbody tr:nth-child(odd) {
+  background: #f2f2f2;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.badge.ok {
+  background: #198754;
+}
+
+.badge.pend {
+  background: #6c757d;
+}
